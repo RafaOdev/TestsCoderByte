@@ -12,8 +12,6 @@ function longestWords(sen){ // Função com parâmetro sen que receberá o valor
     return longest; // retornará a maior palavra encontrada na string.
 }
 
-console.log(longestWords('12345 123456'));
-
 /* 
     ERROS QUE COMETI NO ÍNICIO DA MONTAGEM DO ALGORITMO:
 
