@@ -1,11 +1,11 @@
 function longestWords(sen){ // Função com parâmetro sen que receberá o valor de uma string.
     sen = sen.replace(/[^\w\s]g/, '');// essa instrução ira subistituir um caractere pelo que está dentro da atibuição de parâmetro. Ou seja, irá subistituir pontuações por espaços em branco.  
     let words = sen.split(' '); // irá dividir a string em uma substring para cada caracterer da string, assim checando cada letra de cada frase da string.
-    let longest = ''; // uma váriavel com uma string vazia que armazenará a maior palavra após cada checagem.
+    let longest = ''; // uma variável com uma string vazia que armazenará a maior palavra após cada checagem.
 
     for(let i in words){ // estrutura for para checar cada palavra da string.
         if(words[i].length > longest.length){ // verifica se a palavra que foi checada é maior que a anterior.
-            longest = words[i]; // se a palavra checada for maior que a anterior, ela irá ser amarzenada na váriavel longest.
+            longest = words[i]; // se a palavra checada for maior que a anterior, ela irá ser amarzenada na variável longest.
         }
     }
 
@@ -40,5 +40,5 @@ function longestWords(sen){ // Função com parâmetro sen que receberá o valor
     ACERTOS:
 
     1 - No final do código utilizei a estrutura e lógica correta para fazer a verificação de cada palavra da string;
-    2 - declarei de forma corretas qual seria os valores que cada váriavel iria receber.
+    2 - declarei de forma corretas qual seria os valores que cada variável iria receber.
 */
